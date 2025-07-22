@@ -9,23 +9,23 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'Webavbot')
-API_ID = int(environ.get('API_ID', '12345678'))
-API_HASH = environ.get('API_HASH', '812529feb49f578FHB5d1')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7091568:AAGpX2rVUnDHCYV-96GJVUV")
-BOT_USERNAME = environ.get("BOT_USERNAME", 'AV_F2L_BOT') # without @ 
+API_ID = int(environ.get('API_ID', '28269435'))
+API_HASH = environ.get('API_HASH', '839f282133fe8ee79b4a946095cf4360')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7811341300:AAHAsHowVA5XKloH1U7LW3PPd_FkhEGWgZM")
+BOT_USERNAME = environ.get("BOT_USERNAME", 'HP_RajStream_Bot') # without @ 
 
 # Admins, Channels & Users
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-100')) # admin your channel in stream 
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-100')) # admin your channel in users log 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5977931010').split()] # 3567788, 678899, 5889467
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'BOT_OWNER26') # without @ 
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002688422433')) # admin your channel in stream 
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002688422433')) # admin your channel in users log 
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8005648537').split()] # 3567788, 678899, 5889467
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'Mr_HP_Raj') # without @ 
 
 # pics information
 PICS = environ.get('PICS', 'https://envs.sh/_pM.jpg')
 
 # channel link information
-CHANNEL = environ.get('CHANNEL', 'https://t.me/AV_BOTz_UPDATE')
-SUPPORT = environ.get('SUPPORT', 'https://t.me/AV_SUPPORT_GROUP')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/HP_Raj_MOVIES')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/+fzXLS_LbzSFjOTVl')
 
 #Dont Remove My Credit @AV_BOTz_UPDATE 
 #This Repo Is By @BOT_OWNER26 
