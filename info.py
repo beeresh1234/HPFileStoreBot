@@ -51,11 +51,11 @@ BAN_CHNL = [int(ban_chal) if id_pattern.search(ban_chal) else ban_chal for ban_c
 BAN_ALERT = environ.get('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.ᴄᴏɴᴛᴀᴄᴛ [ᴀᴠ ᴄʜᴀᴛ ᴏᴡɴᴇʀ](https://telegram.me/AV_OWNER_BOT) ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>')
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Hanuman:hanuman@cluster0.l5toshc.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Hanuman")
 
 # fsub  information
-AUTH_PICS = environ.get('AUTH_PICS', 'https://envs.sh/AwV.jpg')              
+AUTH_PICS = environ.get('AUTH_PICS', 'https://graph.org/file/819dd1a293d5fea054e07-d509d6c5c97bab7fe9.jpg')              
 AUTH_CHANNEL = (environ.get("AUTH_CHANNEL", "-100"))
 FSUB = environ.get("FSUB", True)
 
